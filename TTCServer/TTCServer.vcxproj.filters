@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Networking">
+      <UniqueIdentifier>{3c436600-1dbd-4c52-8a1b-04cd56e01184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging">
+      <UniqueIdentifier>{1d6eadf1-37b5-4d99-84d1-db45a8aef8bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{af4a9974-017e-4d8e-baa5-ce5a5dfd3303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\Connection">
+      <UniqueIdentifier>{c7e1fad0-0979-4d60-ab99-6fee6688e3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\INet4Address">
+      <UniqueIdentifier>{35e3ef8e-9b44-4e04-a3ba-9e77dd96c320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\Server">
+      <UniqueIdentifier>{ab7904a4-6910-4b00-bc01-d3ba247e94d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\ConnectionInstance">
+      <UniqueIdentifier>{08c7166a-7df7-4758-b54b-b0247ce1bd1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\ClientConnection">
+      <UniqueIdentifier>{fa9a2d0c-41a3-4cc5-ad10-47db12121901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Accept">
+      <UniqueIdentifier>{bb47b96a-9721-4119-9442-6f64fd23888f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Connect">
+      <UniqueIdentifier>{b2547443-47fc-462e-bfbb-1440756c9204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Disconnect">
+      <UniqueIdentifier>{f77e4d89-2c0d-4a23-b69f-c00ea720b520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\GameState">
+      <UniqueIdentifier>{48b568c6-ece2-4597-9db5-7309f83777aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Grid">
+      <UniqueIdentifier>{487d1de0-cd0e-407e-b914-f780aaf3add5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Move">
+      <UniqueIdentifier>{0a05f1f5-2160-4550-9d1a-f54bf640d4bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Reject">
+      <UniqueIdentifier>{895207ae-49d8-46e6-810f-3dc371163578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Request">
+      <UniqueIdentifier>{d8190fe0-edcc-4996-815c-cde64060df59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\ConnectedPlayer">
+      <UniqueIdentifier>{9d69fe28-1fc3-4818-a7dd-ffb9541f2f3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Lobby">
+      <UniqueIdentifier>{b98da169-de57-46e3-8602-91df62b5ef1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TicTacToe">
+      <UniqueIdentifier>{9013d31e-726f-4b5d-a040-fd0ed42c7bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TicTacToeNetwork">
+      <UniqueIdentifier>{63bbff2b-5a8f-4220-a8e5-fd26c10a4ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messaging\Kaboom">
+      <UniqueIdentifier>{9c89701e-497a-4e6a-877c-1171dd582cb9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TTCServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Networking\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="INet4Add.cpp">
+      <Filter>Networking\INet4Address</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionInstance.cpp">
+      <Filter>Networking\ConnectionInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientConnection.cpp">
+      <Filter>Networking\ClientConnection</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerConnection.cpp">
+      <Filter>Networking\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="AcceptMessage.cpp">
+      <Filter>Messaging\Accept</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectMessage.cpp">
+      <Filter>Messaging\Connect</Filter>
+    </ClCompile>
+    <ClCompile Include="DisconnectMessage.cpp">
+      <Filter>Messaging\Disconnect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Messaging\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GridUpdate.cpp">
+      <Filter>Messaging\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeMove.cpp">
+      <Filter>Messaging\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestUpdate.cpp">
+      <Filter>Messaging\Request</Filter>
+    </ClCompile>
+    <ClCompile Include="RejectMessage.cpp">
+      <Filter>Messaging\Reject</Filter>
+    </ClCompile>
+    <ClCompile Include="TicTacToe.cpp">
+      <Filter>Game\TicTacToe</Filter>
+    </ClCompile>
+    <ClCompile Include="TicTacToeNetwork.cpp">
+      <Filter>Game\TicTacToeNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobby.cpp">
+      <Filter>Game\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectedPlayer.cpp">
+      <Filter>Game\ConnectedPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Kaboom.cpp">
+      <Filter>Messaging\Kaboom</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Connection.h">
+      <Filter>Networking\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="INet4Add.h">
+      <Filter>Networking\INet4Address</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionInstance.h">
+      <Filter>Networking\ConnectionInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientConnection.h">
+      <Filter>Networking\ClientConnection</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConnection.h">
+      <Filter>Networking\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="AcceptMessage.h">
+      <Filter>Messaging\Accept</Filter>
+    </ClInclude>
+    <ClInclude Include="Messages.h">
+      <Filter>Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectMessage.h">
+      <Filter>Messaging\Connect</Filter>
+    </ClInclude>
+    <ClInclude Include="DisconnectMessage.h">
+      <Filter>Messaging\Disconnect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Messaging\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="GridUpdate.h">
+      <Filter>Messaging\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeMove.h">
+      <Filter>Messaging\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="RejectMessage.h">
+      <Filter>Messaging\Reject</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestUpdate.h">
+      <Filter>Messaging\Request</Filter>
+    </ClInclude>
+    <ClInclude Include="TicTacToe.h">
+      <Filter>Game\TicTacToe</Filter>
+    </ClInclude>
+    <ClInclude Include="TicTacToeNetwork.h">
+      <Filter>Game\TicTacToeNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobby.h">
+      <Filter>Game\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectedPlayer.h">
+      <Filter>Game\ConnectedPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Kaboom.h">
+      <Filter>Messaging\Kaboom</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
